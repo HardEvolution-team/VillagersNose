@@ -1,0 +1,6 @@
+entity.villagersnose.noseless_villager.name=Житель Без Носа
+item.villagersnose.nose.name=Нос
+item.villagersnose.super_nose.name=СуперНос 9000
+tile.villagersnose.villager_crop.name=Грядка жителя
+translation.villagersnose.tradeRefusal=Никаких сделок. У меня украли нос!
+villagersnose.config.title=Villager's Nose

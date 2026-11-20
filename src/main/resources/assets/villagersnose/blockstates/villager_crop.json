@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "rot=0": {"model": "villagersnose:villager_crop"},
+    "rot=1": {"model": "villagersnose:villager_crop"},
+    "rot=2": {"model": "villagersnose:villager_crop"},
+    "rot=3": {"model": "villagersnose:villager_crop"}
+  }
+}

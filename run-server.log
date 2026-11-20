@@ -1,0 +1,342 @@
+
+> Configure project :
+[Unimined] Plugin Version: 1.4.43-kappa
+[Unimined/MinecraftDownloader] retrieving version metadata
+[Unimined/Forge] Using FG3 transformer
+[Unimined/Minecraft ::main] Applying minecraft config for source set 'main'
+[Unimined/Minecraft ::main] Applying CleanroomFG3
+[Unimined/ForgeTransformer] Attempting inject forge userdev into minecraft jar
+[Unimined/Minecraft ::main] Applying run configs
+Merging client and server jars...
+[Unimined/Forge] transforming minecraft jar for FG3
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class ain$22, {official=ain$22, searge=net/minecraft/item/Item$22, mcp=net/minecraft/item/Item$22}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class anh$FlowerEntry, {official=anh$FlowerEntry, searge=net/minecraft/world/biome/Biome$FlowerEntry, mcp=net/minecraft/world/biome/Biome$FlowerEntry}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class anp$EmeraldGenerator, {official=anp$EmeraldGenerator, searge=net/minecraft/world/biome/BiomeHills$EmeraldGenerator, mcp=net/minecraft/world/biome/BiomeHills$EmeraldGenerator}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class awu$Builder, {official=awu$Builder, searge=net/minecraft/block/state/BlockStateContainer$Builder, mcp=net/minecraft/block/state/BlockStateContainer$Builder}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class aym$WorldSleepResult, {official=aym$WorldSleepResult, searge=net/minecraft/world/WorldProvider$WorldSleepResult, mcp=net/minecraft/world/WorldProvider$WorldSleepResult}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class c$4, {official=c$4, searge=net/minecraft/crash/CrashReportCategory$4, mcp=net/minecraft/crash/CrashReportCategory$4}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class c$5, {official=c$5, searge=net/minecraft/crash/CrashReportCategory$5, mcp=net/minecraft/crash/CrashReportCategory$5}
+[Unimined/JarMod ::source set 'main'] Adding mappings for added inner class ot$1, {official=ot$1, searge=net/minecraft/server/management/PlayerChunkMapEntry$1, mcp=net/minecraft/server/management/PlayerChunkMapEntry$1}
+[Unimined/ForgeTransformer] Applying ATs [forge_at.cfg]
+[Unimined/ModRemapper] Remapping mods from searge to mcp
+[Unimined/ModRemapper] No mods found for remapping
+[Unimined/ModRemapper] Remapping mods from searge to mcp
+[Unimined/ModRemapper] No mods found for remapping
+[Unimined/ModRemapper] Remapping mods from searge to mcp
+[Unimined/ModRemapper] No mods found for remapping
+
+> Task :generateJavaTemplates UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :generateResourceTemplates UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :preRunServer
+
+> Task :runServer
+2026-11-18T11:35:50.721632400Z main WARN The use of package scanning to locate Log4j plugins is deprecated.
+Please remove the `packages` attribute from your configuration file.
+See https://logging.apache.org/log4j/2.x/faq.html#package-scanning for details.
+[14:35:50] [main/WARN]: Mappings not available! (mappings/mappings.tiny in classpath)
+[14:35:50] [main/WARN]: Could not load mappings from classpath, falling back to checking packages
+[2026-11-18 14:35:50] [INFO   ] Main Class: top.outlands.foundation.boot.Foundation 
+[2026-11-18 14:35:50] [INFO   ] Srg2Mcp: D:\OldVersionsPORT\VillagersNose\.gradle\unimined\local\mappings\srg2mcp.tsrg 
+[2026-11-18 14:35:50] [INFO   ] Extra: [--username, Developer] 
+[2026-11-18 14:35:50] [INFO   ] Running with arguments: [--tweakClass, net.minecraftforge.fml.common.launcher.FMLServerTweaker, --username, Developer] 
+[14:35:51] [main/INFO]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:35:51] [main/INFO]: Using primary tweak name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:35:51] [main/INFO]: Calling tweak net.minecraftforge.fml.common.launcher.FMLServerTweaker@7357a011
+[14:35:51] [main/INFO]: Jar location: file:/C:/Users/ElectrifiedDed/.gradle/caches/unimined/maven/net/minecraft/minecraft-cleanroom-0.6.13-alpha/1.12.2/minecraft-cleanroom-0.6.13-alpha-1.12.2.jar
+2026-11-18T11:35:51.322821600Z main WARN Disabling terminal, you're running in an unsupported environment.
+[14:35:51] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2864 for Minecraft 1.12.2 loading
+[14:35:51] [main/INFO] [FML]: Cleanroom version 0.6.13-alpha
+[14:35:51] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 25, running on Windows 11:amd64:10.0, installed at C:\Program Files\Eclipse Adoptium\jdk-25.0.0.36-hotspot
+[14:35:51] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[14:35:51] [main/ERROR] [FML]: Full: C:\Users\ElectrifiedDed\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.9.16\1176c6579a8a68508c3479ef72d514e71c98ddca\maven-artifact-3.9.16.jar
+[14:35:51] [main/ERROR] [FML]: Trimmed: c:/users/electrifiedded/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.9.16/
+[14:35:51] [main/INFO] [Cleanroom]: Initializing CleanMix...
+[14:35:51] [main/INFO] [CleanMix]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:/C:/Users/ElectrifiedDed/.gradle/caches/modules-2/files-2.1/com.cleanroommc/cleanmix/0.7.2/b8793a2f5b29799853dc4bf070707f91112ea2ed/cleanmix-0.7.2.jar!/org/spongepowered/asm/mixin/MixinEnvironment.class Service=CleanMix Env=SERVER
+[14:35:51] [main/INFO] [Cleanroom]: Discovering mods
+[14:35:51] [main/INFO] [FML]: Adding extra mod file D:\OldVersionsPORT\VillagersNose\build\classes\java\main
+[14:35:51] [main/INFO] [FML]: Adding extra mod file D:\OldVersionsPORT\VillagersNose\build\resources\main
+[14:35:51] [main/INFO] [FML]: Adding extra mod file D:\OldVersionsPORT\ArchaicLib\build\libs\archaiclib-1.5.1-dev.jar
+[14:35:51] [main/INFO] [FML]: Searching D:\OldVersionsPORT\VillagersNose\run\server\.\mods for mods
+[14:35:52] [main/INFO] [Cleanroom]: Finished discovering mods. Found 2 discovered mod ids in 1408 ms.
+[14:35:52] [main/INFO] [Cleanroom]: Initializing MixinExtras...
+[14:35:52] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[14:35:52] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[14:35:53] [main/WARN] [CleanMix]: Unable to locate resource for mixin config source: villagersnose.mixin.json
+java.io.IOException: Mixin config does not reside in a jar file
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.findSource(MixinConfig.java:1440) ~[MixinConfig.class:0.7.2]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.onLoad(MixinConfig.java:462) ~[MixinConfig.class:0.7.2]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1418) ~[MixinConfig.class:0.7.2]
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:197) ~[Config.class:0.7.2]
+	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:122) ~[Mixins.class:0.7.2]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:109) ~[Mixins.class:0.7.2]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:99) ~[Mixins.class:0.7.2]
+	at com.cleanroommc.discovery.CleanroomModDiscoverer.discoverMixinMods(CleanroomModDiscoverer.java:144) ~[CleanroomModDiscoverer.class:?]
+	at net.minecraftforge.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:250) ~[CoreModManager.class:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:126) [FMLLaunchHandler.class:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:98) [FMLLaunchHandler.class:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:54) [FMLLaunchHandler.class:?]
+	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:60) [FMLServerTweaker.class:?]
+	at top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:107) [LaunchHandler.class:?]
+	at top.outlands.foundation.boot.Foundation.main(Foundation.java:43) [foundation-0.19.11.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at com.cleanroommc.boot.Main.start(Main.java:61) [minecraft-cleanroom-0.6.13-alpha-1.12.2.jar:?]
+	at com.cleanroommc.boot.MainServer.main(MainServer.java:6) [minecraft-cleanroom-0.6.13-alpha-1.12.2.jar:?]
+[14:35:53] [main/INFO] [Foundation]: Loading tweak name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:35:53] [main/INFO] [Foundation]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:35:53] [main/INFO] [Foundation]: Loading tweak name org.spongepowered.asm.launch.MixinTweaker
+[14:35:53] [main/INFO] [Foundation]: Loading tweak name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:35:53] [main/INFO] [Foundation]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@67526dc1
+[14:35:53] [main/INFO] [Foundation]: Calling tweak net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker@67526dc1
+[14:35:53] [main/INFO] [Foundation]: Calling tweak org.spongepowered.asm.mixin.EnvironmentStateTweaker@bcfebfe
+[14:35:53] [main/INFO] [Foundation]: Calling tweak FMLCorePlugin
+[14:35:53] [main/ERROR] [FML]: The binary patch set is missing, because you are in a development environment!
+[14:35:53] [main/INFO] [FML]: FML appears to be missing any signature data. This is expected, don't worry.
+[14:35:53] [main/INFO] [Foundation]: Calling tweak FMLForgePlugin
+[14:35:53] [main/INFO] [Foundation]: Calling tweak ExampleLoadingPlugin
+[14:35:53] [main/INFO] [Foundation]: Calling tweak org.spongepowered.asm.launch.MixinTweaker@516764c4
+[14:35:53] [main/INFO] [Foundation]: Calling tweak net.minecraftforge.fml.common.launcher.FMLDeobfTweaker@59c46e5e
+[14:35:53] [main/INFO] [Foundation]: Launching wrapped minecraft net.minecraft.server.MinecraftServer
+[14:35:54] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[14:35:55] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.12.2
+[14:35:55] [Server thread/INFO] [FML]: Cleanroom v0.6.13-alpha Initialized
+[14:35:55] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:35:55] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:35:55] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:35:55] [Server thread/INFO] [Kirino Core]: Initializing Kirino-Engine's Mod Container.
+[14:35:55] [Server thread/INFO] [Kirino Core]: Initializing Kirino-ECS's Mod Container.
+[14:35:55] [Server thread/INFO] [Kirino Core]: Initializing Kirino-GL's Mod Container.
+[14:35:57] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for cleanmix: assets/cleanmix/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for mixinbooter: assets/mixinbooter/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for configanytime: assets/configanytime/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for kirino_engine: assets/kirino_engine/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for kirino_ecs: assets/kirino_ecs/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for kirino_gl: assets/kirino_gl/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:35:57] [Server thread/WARN] [FML]: Missing English translation for villagersnose: /D:/OldVersionsPORT/VillagersNose/build/classes/java/main/assets/villagersnose/lang/en_us.lang
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jna-5.19.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jopt-simple-5.0.4.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file codecjorbis-20101023.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file codecwav-20101023.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file libraryjavasound-20101123.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file librarylwjglopenal-20100824.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file soundsystem-20120107.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file guava-33.6.0-jre.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file commons-lang3-3.20.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file commons-io-2.22.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file commons-codec-1.22.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jinput-2.0.10.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file gson-2.14.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file authlib-1.5.25.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file realms-1.10.22.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file commons-compress-1.28.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file commons-logging-1.4.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file fastutil-8.5.18.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file log4j-api-2.26.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file log4j-core-2.26.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jinput-platform-2.0.5-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file text2speech-1.10.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file text2speech-1.10.3-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-glfw-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-glfw-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-glfw-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-glfw-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-jemalloc-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-jemalloc-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-jemalloc-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-jemalloc-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-openal-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-openal-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-openal-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-openal-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-opengl-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-opengl-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-opengl-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-opengl-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-stb-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-stb-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-stb-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-stb-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-tinyfd-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-tinyfd-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-tinyfd-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-tinyfd-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-3.4.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-3.4.1-natives-windows-arm64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-3.4.1-natives-windows-x86.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-3.4.1-natives-windows.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lwjgl-3.4.1-unsafe.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-9.10.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-commons-9.10.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-tree-9.10.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-util-9.10.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-analysis-9.10.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file asm-deprecated-7.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file foundation-0.19.11.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file Reflect-1.6.4.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file javassist-3.30.2-GA.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file icu4j-78.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jline-4.1.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jline-native-4.1.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file lzma-0.0.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file vecmath-1.5.2.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file oshi-core-ffm-7.3.2.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jna-platform-5.19.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file maven-artifact-3.9.16.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jspecify-1.0.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file httpcore5-5.4.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file httpcore5-h2-5.4.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file httpclient5-5.6.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-codec-base-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-buffer-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-common-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-handler-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-resolver-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-native-unix-common-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-native-unix-common-4.2.15.Final-linux-x86_64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-classes-epoll-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-native-epoll-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-codec-http-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-codec-http2-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-codec-dns-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-codec-compression-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file netty-resolver-dns-4.2.15.Final.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jakarta.xml.ws-api-4.0.3.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jakarta.activation-api-2.1.4.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jakarta.annotation-api-3.0.0.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jakarta.xml.bind-api-4.0.5.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jakarta.inject-api-2.0.1.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jaxb-runtime-4.0.9.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file jaxb-core-4.0.9.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file classgraph-4.8.184.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file mixinextras-common-0.5.5.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file httpclient-4.5.14.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: FML has found a non-mod file httpcore-4.4.16.jar in your mods directory. It will now be injected into your classpath.
+[14:35:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, kirino_engine, kirino_ecs, kirino_gl, FML, forge, helpfulvillagers, villagersnose, archaiclib] at CLIENT
+[14:35:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, cleanroom, cleanmix, mixinbooter, configanytime, kirino_engine, kirino_ecs, kirino_gl, FML, forge, helpfulvillagers, villagersnose, archaiclib] at SERVER
+[14:35:57] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:35:57] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[14:35:57] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:35:57] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:35:57] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:35:57] [Server thread/INFO] [ArchaicLib]: Hello From ArchaicLib!
+[14:35:57] [Server thread/INFO] [ArchaicLib]: Proxy is com.electrifiedded.archaiclib.proxy.CommonProxy@312df85c
+[14:35:57] [Cleanroom Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14:35:57] [Server thread/WARN] [ArchaicLib]: [helpfulvillagers] original jar of 'helpfulvillagers' not found in D:\OldVersionsPORT\VillagersNose\run\server\archaic_originals - its textures will be missing. Get it: https://www.curseforge.com/minecraft/mc-mods/helpful-villagers
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:35:58] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:35:58] [Server thread/INFO] [Kirino Core]: ---------- Kirino Common Initialization ----------
+[14:35:58] [Server thread/INFO] [Kirino Core]: Registered the default ShaderRegistrationEvent listener.
+[14:35:58] [Server thread/INFO] [Kirino Core]: Registered the default PostProcessingRegistrationEvent listener.
+[14:35:58] [Server thread/INFO] [Kirino Core]: Initializing ECS Runtime.
+[14:35:58] [Server thread/INFO] [Kirino Core]: ECS Runtime Initialized. Time taken: 29 ms
+[14:35:58] [Server thread/INFO] [Kirino Core]: Initializing Kirino Engine.
+[14:35:58] [Server thread/INFO] [Kirino Core]: Registered headless module installer "com.cleanroommc.kirino.engine.analysis.install.AnalyticalWorldInstaller".
+[14:35:58] [Server thread/INFO] [Kirino Core]: Registered graphics module installer "com.cleanroommc.kirino.engine.graphics.install.GraphicsWorldInstaller".
+[14:35:58] [Server thread/INFO] [Kirino Core]: Kirino Engine Initialized. Time taken: 112 ms
+[14:35:58] [Server thread/INFO] [Kirino Core]: ---------- Kirino Server-Side Initialization ----------
+[14:35:58] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[14:35:58] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[14:35:58] [Server thread/INFO] [minecraft/DedicatedServer]: Generating keypair
+[14:35:58] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25597
+[14:35:58] [Server thread/INFO] [minecraft/NetworkSystem]: Using default channel type
+[14:35:58] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:35:58] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[14:35:58] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:35:58] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:35:58] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:35:58] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
+[14:35:58] [Server thread/INFO] [Kirino Core]: ---------- Kirino Common Post-Initialization ----------
+[14:35:58] [Server thread/INFO] [Kirino Core]: ---------- Kirino Server-Side Post-Initialization ----------
+[14:35:58] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[14:35:58] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:35:58] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: helpfulvillagers:villager Expected: 0 Got: 39
+[14:35:58] [Server thread/INFO] [FML]: Setting Object Holders with value...
+[14:35:58] [Server thread/INFO] [FML]: Object Holders set.
+[14:35:58] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4b4cda6e)
+[14:35:59] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[14:35:59] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4b4cda6e)
+[14:35:59] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4b4cda6e)
+[14:35:59] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[14:35:59] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0,709s)! For help, type "help" or "?"
+[14:35:59] [Server thread/INFO] [minecraft/DedicatedServer]: Starting remote control listener
+[14:35:59] [RCON Listener #1/INFO] [minecraft/MinecraftServer]: RCON running on 0.0.0.0:25598
+[14:35:59] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:35:59] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:36:02] [RCON Listener #1/INFO] [minecraft/MinecraftServer]: Rcon connection from: /127.0.0.1
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Bob]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:02] [RCON Client #2/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:10] [Cleanroom Version Check/INFO] [forge.VersionCheck]: [forge] Found status: BETA Target: null
+[14:36:10] [Cleanroom Version Check/INFO] [forge.VersionCheck]: [cleanroom] Starting version check at https://download.cleanroommc.com/api/forge
+[14:36:11] [RCON Listener #1/INFO] [minecraft/MinecraftServer]: Rcon connection from: /127.0.0.1
+[14:36:11] [RCON Client #3/INFO] [minecraft/DedicatedServer]: [Rcon: Block placed]
+[14:36:11] [RCON Client #3/INFO] [minecraft/DedicatedServer]: [Rcon: Object successfully summoned]
+[14:36:17] [RCON Listener #1/INFO] [minecraft/MinecraftServer]: Rcon connection from: /127.0.0.1
+[14:36:17] [RCON Client #4/INFO] [minecraft/DedicatedServer]: [Rcon: Successfully found the block at 0, 4, 0]
+[14:36:17] [RCON Client #4/INFO] [minecraft/DedicatedServer]: [Rcon: Found Hv]
+[14:36:17] [RCON Client #4/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:17] [RCON Client #4/INFO] [minecraft/DedicatedServer]: [Rcon: Found Helpful Villager]
+[14:36:17] [RCON Client #4/INFO] [minecraft/DedicatedServer]: [Rcon: Stopping the server]
+[14:36:17] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[14:36:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[14:36:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[14:36:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'world'/overworld
+[14:36:17] [Server thread/INFO] [FML]: Unloading dimension 0
+[14:36:17] [Server Shutdown Thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[14:36:17] [Server Shutdown Thread/INFO] [minecraft/MinecraftServer]: Saving players
+[14:36:17] [Server Shutdown Thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+
+[Incubating] Problems report is available at: file:///D:/OldVersionsPORT/VillagersNose/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 32s
+6 actionable tasks: 2 executed, 4 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.0/userguide/configuration_cache_enabling.html

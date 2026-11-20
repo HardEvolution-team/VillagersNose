@@ -1,0 +1,6 @@
+entity.villagersnose.noseless_villager.name=Noseless Villager
+item.villagersnose.nose.name=Nose
+item.villagersnose.super_nose.name=SuperNose 9000
+tile.villagersnose.villager_crop.name=Villager Crop
+translation.villagersnose.tradeRefusal=No deals today. Somebody stole my nose!
+villagersnose.config.title=Villager's Nose
