@@ -1,0 +1,18 @@
+{
+  "_comment": "Where ArchaicLib downloads the original files of this port from. Edit freely; set locked=true to keep your edits when the mod updates. Files go to archaic_originals/ and are checked by sha256.",
+  "port": "villagersnose",
+  "version": 3,
+  "locked": false,
+  "files": [
+    {
+      "file": "villagersnose_1.7.10_1.3c.jar",
+      "name": "Villager's Nose 1.3c for 1.7.10 (by StarSheep)",
+      "sha256": "a01350c98e9131ce614cc72ab275e6ee4e4bc2338ced1e6935cae5828a47867a",
+      "size": 564984,
+      "page": "https://www.curseforge.com/minecraft/mc-mods/villagers-nose/files/2216902",
+      "mirrors": [
+        "https://mediafilez.forgecdn.net/files/2216/902/VillagersNose-1.7.10-1.3c.jar"
+      ]
+    }
+  ]
+}

@@ -28,7 +28,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION,
-        dependencies = "required-after:archaiclib@[1.8.0,)")
+        dependencies = "required-after:archaiclib@[1.40.0,)")
 public class VillagersNose {
 
     public static final String MODID = Reference.MOD_ID;

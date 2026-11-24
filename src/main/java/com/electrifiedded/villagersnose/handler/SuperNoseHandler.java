@@ -23,7 +23,7 @@ import java.util.Random;
 @SideOnly(Side.CLIENT)
 public class SuperNoseHandler {
     private SuperNoseAnimation animation;
-    private final Random random = new Random();
+    private final Random random = new com.electrifiedded.archaiclib.util.FastRandom();
 
     private static boolean wearing() {
         Minecraft mc = Minecraft.getMinecraft();

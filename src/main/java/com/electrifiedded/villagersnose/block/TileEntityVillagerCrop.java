@@ -24,7 +24,7 @@ public class TileEntityVillagerCrop extends TileEntity implements ITickable {
     /** Forge profession registry name of the villager that is growing; empty until chosen. */
     private String profession = "";
     private int lastSyncedPercent = -1;
-    private final Random random = new Random();
+    private final Random random = new com.electrifiedded.archaiclib.util.FastRandom();
 
     @SideOnly(Side.CLIENT)
     private EntityVillager renderVillager;

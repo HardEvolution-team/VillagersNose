@@ -1,5 +1,5 @@
 project_id = 1816908
-jar = "build/libs/*.jar"
+jar = "build/libs/villagersnose-1.1.2.jar"
 changelog = "CHANGELOG.md"
 changelog_type = "markdown"
 changelog_latest_only = true
